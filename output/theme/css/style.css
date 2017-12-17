@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #191919;
+  font-size: 16px;
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", Times, serif;
+}
+a {
+  color: #393939;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family:"Raleway", "Helvetica Neue", Helvetica, Arial, "Abhaya Libre", sans-serif;
+}
+hr {
+  color: #eeeeee;
+  background-color: #eeeeee;
+  height: 1px;
+  border: none;
+}
+blockquote { 
+    border-left: 5px solid #e9e9e9; 
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+}
+header {
+  padding: 40px;
+  border-top: #eeeeee 1px solid;
+  border-bottom: #eeeeee 1px solid;
+}
+header p {
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+article {
+  max-width: 700px;
+  padding: 30px;
+  margin: 0 auto;
+}
+article div.article_title {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+article div.article_text {
+  font-size: 18px;
+  line-height: 1.6em;
+}
+article div.article_text a {
+  text-decoration: underline;
+}
+article div.article_text pre {
+    font-size: 12px;
+}
+article div.gist {
+  line-height: .875em;
+}
+article div.article_meta {
+  font-family:"Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  color: #999999;
+}
+article dt {
+    margin-top: 20px;
+}
+footer {
+  padding: 40px;
+}
+#article_comments {
+    margin-top: 100px;
+}
+#ending_message {
+  font-family:"Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding: 40px;
+  color: #999999;
+  font-size: 10px;
+}
+@media screen and (min-width: 1024px) {
+  header { border-top: 0; }
+}
+@media (max-width: 768px) {
+  article { padding: 0; }
+}
