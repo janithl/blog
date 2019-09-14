@@ -14,7 +14,6 @@ THEME           = 'pelican-readable'
 USER_LOGO_URL   = SITEURL + '/static/images/avatar.png'
 
 PATH            = 'content'
-OUTPUT_PATH 	= 'docs/'
 
 ARTICLE_URL     = '{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}/index.html'
@@ -62,3 +61,13 @@ SOCIAL = (('Github', 'https://github.com/janithl'),)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Turn off syntax highlights
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'guess_lang': False, 'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}

@@ -1,0 +1,6 @@
+[submodule "pelican-readable"]
+	path = pelican-readable
+	url = https://github.com/janithl/pelican-readable
+[submodule "output"]
+	path = output
+	url = https://github.com/janithl/janithl.github.io
