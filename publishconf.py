@@ -17,6 +17,7 @@ FEED_ALL_ATOM           = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM      = 'feeds/%s.atom.xml'
 
 MONTH_ARCHIVE_SAVE_AS   = '{date:%Y}/{date:%m}/index.html'
+YEAR_ARCHIVE_SAVE_AS    = '{date:%Y}/index.html'
 
 DISPLAY_CATEGORIES_ON_MENU  = True
 DISPLAY_TAGS_ON_MENU        = True
