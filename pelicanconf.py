@@ -30,6 +30,7 @@ TAG_SAVE_AS     = 'tag/{slug}/index.html'
 TAGS_URL        = 'tags/'
 TAGS_SAVE_AS    = 'tags/index.html'
 
+DEFAULT_PAGINATION  = 5
 PAGINATION_PATTERNS = (
     (1, '{base_name}/', '{base_name}/index.html'),
     (2, '{base_name}/page/{number}/', '{base_name}/page/{number}/index.html'),
@@ -46,8 +47,6 @@ CATEGORY_FEED_ATOM      = None
 TRANSLATION_FEED_ATOM   = None
 AUTHOR_FEED_ATOM        = None
 AUTHOR_FEED_RSS         = None
-
-DEFAULT_PAGINATION      = 5
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
