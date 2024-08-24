@@ -102,3 +102,6 @@ ENV/
 
 # pelican theme
 /pelican-readable
+
+# macos
+.DS_Store

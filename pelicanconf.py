@@ -39,7 +39,7 @@ PAGINATION_PATTERNS = (
 EXTRA_PATH_METADATA = {'images/favicon.ico': {'path': 'favicon.ico'}}
 DISQUS_SITENAME     = 'janithl'
 GITHUB_URL          = 'https://github.com/janithl'
-GOOGLE_ANALYTICS    = 'UA-7602960-7'
+GOOGLE_ANALYTICS    = 'G-PHMLN37JY4'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM           = None
